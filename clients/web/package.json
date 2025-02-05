@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "serve:dev": "ng serve --host 0.0.0.0",
     "serve:ssr:web": "node dist/web/server/server.mjs"
   },
   "private": true,
